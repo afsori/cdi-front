@@ -1,0 +1,43 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "title": "afsori",
+      "author": "dahi"
+    },
+    {
+      "id": 3,
+      "title": "bayu",
+      "author": "bayu"
+    },
+    {
+      "id": 4,
+      "title": "mubad",
+      "author": "mubad"
+    },
+    {
+      "id": 1603006681595,
+      "title": "ada",
+      "author": "afs"
+    },
+    {
+      "id": 1603198239198,
+      "title": "afsor",
+      "author": "afsor"
+    },
+    {
+      "id": 1603596281231,
+      "title": "typical kode",
+      "author": "adalah satunya"
+    },
+    {
+      "id": 1606917457006,
+      "title": "sadd",
+      "author": "afsori"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

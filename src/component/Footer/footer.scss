@@ -1,0 +1,75 @@
+.wrapper-footer{
+    .wrapper-footer-first{
+        background: #2A3442;
+        margin-top: 10rem;
+        .container{
+        display: flex;
+        justify-content: space-between;
+        padding: 6em 0;
+        ul{
+            list-style: none;
+            li{
+                color: #FFFFFF;
+                margin-bottom: 15px;
+                font-family: 'Museo Sans Rounded 700';
+                a{
+                    color: #FFFFFF;
+                    font-family: 'Museo Sans Rounded 300';
+                }
+            }
+        }
+        }
+        .logo-play-app-store{
+            display: flex;
+            img{
+                margin: 0 10px 0 0;
+            }
+
+        }
+        .logo-social-media{
+            display: flex;
+            img{
+                margin: 0 10px 0 0;
+            }
+        }
+    }
+    .wrapper-footer-last{
+        background: #252F3B;
+        padding: 2rem 0;
+        .container{
+            padding: 0 2.3em;
+        }
+        p{
+            font-size: 12px;
+            margin: 0;
+            color: #FFFFFF;
+            font-family: 'Museo Sans Rounded 500';
+
+        }
+    }
+   
+}
+@media (max-width: 767px){
+    .wrapper-footer {
+    .wrapper-footer-first .container{
+        display: block;
+        padding: 3em 0;
+    }
+    .wrapper-footer-first{
+        margin-top: 5rem;
+        .logo-play-app-store li a img{
+            width: 100px;
+        }
+    }
+    .wrapper-footer-last{
+        padding: 1rem 0;
+        .container{
+            padding:0;
+        }
+        p{
+            font-size: 9px;
+            text-align: center;
+        }
+    }
+}
+}

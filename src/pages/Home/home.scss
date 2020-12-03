@@ -1,0 +1,32 @@
+.wrapper-card-post-data{
+    width: 30%;
+    padding: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+    p{
+        font-size: 1.5rem;
+        font-weight: bolder;
+    }
+    label{
+        display: block;
+        font-size: 1.1rem;
+        text-align: left;
+        margin-top: .5rem;
+    }
+    input{
+        display: inline-block;
+        font-size: 1.1rem;
+
+    }
+    button{
+        margin-top: 1rem;
+        width: 50%;
+        border: none;
+        color: #FFFFFF;
+        background: #0c0c86;
+        border-radius: 5px;
+        &:hover{
+            background: #3d3d90;
+        }
+    }
+}

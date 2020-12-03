@@ -1,0 +1,54 @@
+.wrapper-card {
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  .card {
+    width: 32%;
+    margin: 1rem 0;
+    padding: 10px;
+    button.edit {
+      margin: 1rem;
+      margin-top: 1rem;
+      width: 30%;
+      border: none;
+      color: #ffffff;
+      background: #0c0c86;
+      border-radius: 5px;
+      &:hover {
+        background: #3d3d90;
+      }
+    }
+    .wrapper-button-cta {
+      display: flex;
+      .detail {
+        margin: 1rem;
+        margin-top: 1rem;
+        width: 30%;
+        border: none;
+        color: #ffffff;
+        background: #0c8637;
+        border-radius: 5px;
+        &:hover {
+          background: #5db97d;
+        }
+      }
+      .delete {
+        margin: 1rem;
+        margin-top: 1rem;
+        width: 30%;
+        border: none;
+        color: #ffffff;
+        background: #dc3545;
+        border-radius: 5px;
+        &:hover {
+          background: #ca0215;
+        }
+      }
+    }
+    .gambar {
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

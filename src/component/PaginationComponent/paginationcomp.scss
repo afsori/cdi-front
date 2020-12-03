@@ -1,0 +1,28 @@
+.wrapper-title-paginate{
+    display: flex;
+    align-items: center;
+    a{
+        text-decoration: none;
+        background-color: blue;
+        border-radius: 5px;
+        width: 5em;
+        height: 2rem;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        color: #FFFFFF;
+        &:hover{
+            background-color: #0b0bce;
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+    }
+    h3{
+        padding: 15px 2em 10px 2em;
+    }
+    input{
+        border-radius: 5px;
+        border: 1px solid #c3c3c3;
+        padding: 5px;
+    }
+}
